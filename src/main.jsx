@@ -18,6 +18,7 @@ window.onerror = function (message, source, lineno, colno, error) {
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <div style={{ padding: 20, fontSize: 24, color: 'red' }}>TESTE DE DEBUG - SE VOCE VE ISSO, O BUILD ESTA FUNCIONANDO</div>
+    {/* <App /> */}
   </React.StrictMode>,
 )
