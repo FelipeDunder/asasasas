@@ -1,0 +1,53 @@
+================================================================================
+PROJETO: ALBAROUTE - APLICAÇÃO DE CICLISMO E BENEFÍCIOS CORPORATIVOS
+================================================================================
+
+1. VISÃO GERAL
+--------------------------------------------------------------------------------
+O AlbaRoute é uma aplicação web progressiva (PWA) desenvolvida com foco em 
+experiência mobile (Mobile-First). O projeto combina funcionalidades de rastreamento 
+de atividades físicas (estilo Strava) com um sistema exclusivo de gamificação 
+e benefícios para funcionários.
+
+2. OBJETIVO
+--------------------------------------------------------------------------------
+Incentivar a prática de ciclismo e a produtividade dos colaboradores através 
+de um sistema de recompensas (AlbaCoins) e engajamento comunitário.
+
+3. TECNOLOGIAS UTILIZADAS
+--------------------------------------------------------------------------------
+- Frontend: React.js (Vite)
+- Estilização: TailwindCSS v4 (Design Moderno e Responsivo)
+- Ícones: Lucide React
+- Gráficos: Chart.js
+- Roteamento: React Router DOM
+
+4. PRINCIPAIS FUNCIONALIDADES
+--------------------------------------------------------------------------------
+
+A) ÁREA DO USUÁRIO (CICLISTA)
+   - Dashboard: Feed de atividades recentes com fotos e estatísticas.
+   - Estatísticas: Gráficos de desempenho semanal e mensal.
+   - Rotas: Sugestões de percursos com níveis de dificuldade.
+   - Loja Oficial: E-commerce integrado para compra de equipamentos de alta 
+     performance (Jerseys, Capacetes, Sapatilhas) com interface premium.
+
+B) ÁREA DO FUNCIONÁRIO (GAMIFICAÇÃO)
+   - Carteira AlbaCoins: Sistema de moeda virtual interna.
+   - Projetos: Submissão e acompanhamento de projetos internos.
+     * Status: Em Análise, Aprovado, Rejeitado.
+     * Recompensa: Projetos aprovados geram AlbaCoins.
+   - Loja de Recompensas: Troca de AlbaCoins por benefícios reais 
+     (ex: Day Off, Equipamentos, Vales).
+
+5. DESTAQUES DE UX/UI
+--------------------------------------------------------------------------------
+- Design "Clean" e Minimalista.
+- Navegação otimizada para polegar (Menu inferior fixo).
+- Feedback visual imediato (Cores de status, botões interativos).
+- Imagens de alta qualidade e contextualizadas.
+
+================================================================================
+DESENVOLVIDO POR: Felipe Dunder
+DATA: Novembro/2025
+================================================================================
