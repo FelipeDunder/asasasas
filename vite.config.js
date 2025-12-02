@@ -6,7 +6,6 @@ export default defineConfig({
   plugins: [react()],
   base: '/asasasas/',
   build: {
-    outDir: 'docs',
-    emptyOutDir: true,
+    outDir: 'dist',
   },
 })
