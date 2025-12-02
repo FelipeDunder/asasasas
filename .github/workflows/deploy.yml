@@ -36,6 +36,21 @@ jobs:
       - name: List files after build
         run: ls -R
 
+      - name: Verify build output (dist)
+        run: |
+          echo "Verificando se o diretório 'dist' existe..."
+          if [ -d dist ]; then
+            echo "'dist' encontrado. Conteúdo:"
+            ls -la dist || true
+          else
+            echo "::error::Diretório 'dist' não existe. O passo de build pode ter falhado."
+            echo "Conteúdo do workspace:"
+            ls -la
+            echo "Listagem recursiva:"
+            ls -R
+            exit 1
+          fi
+
       - name: Upload build artifacts
         uses: actions/upload-pages-artifact@v3
         with:
